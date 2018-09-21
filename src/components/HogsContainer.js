@@ -10,7 +10,6 @@ function HogsContainer(props) {
 
   const hogList = props.hogsObj.map(hogItem => {
       return < Hog key={hogItem.name} {...hogItem} />
-      console.log(this)
     })
 
   return(
